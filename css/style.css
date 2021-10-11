@@ -100,6 +100,7 @@ h6 {font-size:25px; line-height:30px}
 
 /* text color */
 .text-white-2, .btn.text-white-2 {color:#FFF}
+.text-white-3 {color:rgba(238, 238, 238, 0.8)}
 .text-black, .btn.text-black {color:#000}
 .text-extra-dark-gray, .btn.text-extra-dark-gray {color:#232323}
 .text-dark-gray, .btn.text-dark-gray {color:#626262}
@@ -248,7 +249,10 @@ a.text-very-light-gray-hover:hover {color:#ededed !important;}
 .bg-transparent, .background-transparent {background-color: transparent;}
 .bg-white, .background-white {background-color:#fff;}
 .bg-black, .background-black {background-color:#000;}
+.bg-black2, .background-black {background-color:#232323;}
 .bg-extra-dark-gray {background-color:#1c1c1c;}
+.bg-extra-dark-gray2 {background-color:#232323;}
+.bg-image {background-image: url("/images/404image.jpg");background-color: #cccccc;}
 .bg-dark-gray {background-color:#757575;}
 .bg-extra-medium-gray {background-color:#939393;}
 .bg-very-dark-gray {background-color:#121212;}
@@ -258,6 +262,7 @@ a.text-very-light-gray-hover:hover {color:#ededed !important;}
 .bg-light-gray {background-color:#f7f7f7}
 .bg-very-light-gray {background-color:#fafafa}
 .bg-deep-pink {background-color:#ff214f;}
+.bg-light-yellow {background-color:rgba(242, 255, 59, 0.685);}
 .bg-transparent-white { background-color: rgba(255,255,255,0.3); background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(37%, rgba(255,255,255,0)), color-stop(96%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1))); background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 ); }
 .bg-transparent-black { background-color: rgba(0,0,0,0); background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0)), color-stop(37%, rgba(0,0,0,0)), color-stop(96%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1))); background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -o-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 ); }
 .bg-gradient-light-red-light-orange { background-image: linear-gradient(to right top, #ff8e43, #ff7a41, #ff6343, #ff4848, #ff214f) }
@@ -3011,7 +3016,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .hover-option5 .grid-item figcaption {height: 100%; padding: 20px}
 .hover-option5 .grid-item .portfolio-hover-main {transform: none; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; display: table; height: 100%; top: 0; width: 100%;}
 .hover-option5 .grid-item .portfolio-hover-box {padding: 20px;}
-.hover-option5 .grid-item:hover .portfolio-hover-box {background: rgba(0,0,0,.8)}
+.hover-option5 .grid-item:hover .portfolio-hover-box {background: rgba(35, 35, 35, 0.85)}
 .hover-option5 .grid-item .separator-line-horrizontal-medium-light2 {-webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -ms-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; top:5px; width:100px}
 .hover-option5 .grid-item:hover .separator-line-horrizontal-medium-light2 {transform: translateY(-30px); -webkit-transform: translateY(-30px); -moz-transform: translateY(-30px); -ms-transform: translateY(-30px); -o-transform: translateY(-30px);}
 .hover-option5 .grid-item figure:hover img {opacity: .8}
@@ -3853,6 +3858,7 @@ aside .latest-post li figure {width: 75px;}
 
 /* home - portfolio metro */
 .text-bold-underline:before {background-color: #ff214f; height: 3px; width: 100%; position: absolute; right: 0; bottom:5px; content: "";}
+.text-bold-underline-2:before {background-color: #F0FFB3; height: 3px; width: 100%; position: absolute; right: 0; bottom:5px; content: "";}
 
 /* home - portfolio  parallax */
 .parallax-title {padding: 16px 35px; display: inline-block}
